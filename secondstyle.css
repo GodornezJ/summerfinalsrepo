@@ -1,0 +1,119 @@
+body{
+    background-color: white;
+    overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+}
+.header{
+    display: flex;
+    background-color: blue;
+    height:79px;
+    max-width: 100%;
+    box-sizing: border-box
+}
+.toppictures{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    bottom: 50px;
+}
+.logo{
+    position: absolute;
+    right:10px;
+    width: 100px;
+    height: auto;
+    display: block;
+}
+.backbutton{
+    position: relative;
+    top: 80px;
+}
+.bodyframe{
+    background-color: #FFB225;
+    position: relative;
+    height:670px;
+    width: 100%;
+}
+.text{
+    position: relative;
+    font-family: chewy;
+    text-align: center;
+    font-size: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    top: 60px;
+}
+.options{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 10px;    
+    padding: 50px; 
+    top: 80px;
+}
+button{
+    
+    width: 220px;
+    height: 30px;
+    border: none;
+    color: white;
+    font-size: 25px;
+    font-family: times new roman;
+    position: relative;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+.vowels{
+    background-color: #F04C4C;
+}
+.consonants{
+    background-color: #BC3C3C;
+}
+.asl{
+    background-color: #7D7DDC;
+}
+
+@media screen and (max-width: 920px) 
+{
+    .header{
+        position: relative;
+        max-width: 100%;
+    }
+    .toppictures {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    max-width: 100%;
+    position: relative;
+    }
+    .logo{
+    position: absolute;
+    height: auto;
+    width: 80px;
+    right: 40px;
+    }
+    .bodyframe {
+        max-width: 100%;
+        padding: 10px;
+        height: 50rem;
+    }
+    .text{
+        font-size: 25px;
+    }
+    .options{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}

@@ -1,0 +1,101 @@
+.backgroundpic{
+    position: relative;
+    width: 100%;
+}
+.aslpic{
+    position: relative;
+    left: 10px;
+    bottom: 670px;
+    max-height: 35rem;
+    max-width: 40rem;
+}
+.exit{
+    position: relative;
+    bottom: 48rem;
+    left: 88rem;
+}
+.message{
+    position: relative;
+    bottom: 580px;
+    width: 35rem;
+    background-color: #FFA500;
+    left: 10rem;
+    height: 15rem;
+    padding: 60px;
+    border-radius: 15px;
+    font-family: chewy;
+    font-size: 20px;
+}
+.xy{
+    display: flex;
+}
+
+@media screen and (max-width: 920px) 
+{
+    .backgroundpic{
+    position: relative;
+    width: 60rem;
+    height: 90rem;
+    }
+    .xy{
+        display: flex;
+        flex-direction: column;
+    }
+    .message{
+    position: relative;
+    bottom: 115rem;
+    background-color: #FFA500; 
+    height: 15rem;
+    padding: 40px;
+    border-radius: 10px;
+    font-family: chewy;
+    left: 7rem;
+    }
+    .aslpic{
+    position: relative;
+    left: 7rem;
+    bottom: 50rem;
+    max-width: 40rem;
+    }
+    .exit{
+        position: relative;
+        left: 47rem;
+        bottom: 88rem;
+    }
+}
+
+@media screen and (max-width: 520px) 
+{
+    .backgroundpic{
+    position: relative;
+    width: 60rem;
+    height: 65rem;
+    }
+    .xy{
+        display: flex;
+        flex-direction: column;
+    }
+    .message{
+    position: relative;
+    bottom: 87rem;
+    width: 15rem;
+    background-color: #FFA500; 
+    border-radius: 10px;
+    font-family: chewy;
+    left: 5rem;
+    font-size: 12px;
+    }
+    .aslpic{
+    position: relative;
+    left: 2rem;
+    bottom: 35rem;
+    max-width: 25rem;
+    }
+    .exit{
+        position: relative;
+        max-width: 50px;
+        left: 25rem;
+        bottom: 63rem;
+    }
+}
+
